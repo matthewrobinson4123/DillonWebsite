@@ -6,14 +6,77 @@
     text-decoration: none;
 }
 
+.image-wrapper{
+    height: 75em;
+}
+
+.title-img{
+    position: fixed; 
+    object-fit: cover;
+    z-index: -1;
+    width: 100%; 
+    height: 100vh;
+    background-color:#E4D42D;
+    background-image: url("../images/Dillon-studio2.jpg");
+    background-size: 50%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
 .info-container{
-    
+    background-color: #D32D41;
+    background-repeat: repeat;
+    padding: 3em;
+}
+
+.info-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 75%;
+}
+
+.about, 
+.accomplishments, 
+.personal-logo{
+    padding: 3em;
+    position: relative;
+    width:33%;
+    height:auto;
+}
+
+.personal-logo img{
+    width: 50%;
+    height: auto;
+    border: 2px solid white;
+}
+
+.info-links{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    border: black dotted 1px;
+    margin: auto 10em;
+    margin-bottom: 10px;
+    height: fit-content;
+
+}
+
+.info-links a img{
+    height: auto;
+    width: 30%;
+    padding: 2em;
+    border-radius: 50%;
 }
 
 .projects{
-
+    background-color: #0080A8;
 }
 
-.contact{
-    
+.contact-container{
+    background-color: #E4D42D;
 }
