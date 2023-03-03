@@ -1,26 +1,29 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     text-align: center;
     text-decoration: none;
 }
 
-.image-wrapper{
-    height: 75em;
+body{
+    background: #D32D41;
 }
 
-.title-img{
-    position: fixed; 
-    object-fit: cover;
-    z-index: -1;
-    width: 100%; 
+.name{
+    font-family: 'Climate Crisis', cursive;
+    font-size: 5em;
+    margin: 2em 0;
+}
+
+.image-wrapper{
     height: 100vh;
-    background-color:#E4D42D;
-    background-image: url("../images/Dillon-studio2.jpg");
-    background-size: 50%;
-    background-position: 50%;
-    background-repeat: no-repeat;
+    display: inline;
+}
+
+.image-wrapper img{
+    width: 33%; 
+    min-height: 4em;
 }
 
 .info-container{
@@ -33,19 +36,34 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    margin: 0 auto;
+    margin: auto;
+    margin-bottom: 5em;
+    width: 80%;
+}
+
+.about-accomplishments{
     width: 75%;
 }
 
-.about, 
-.accomplishments, 
+.about{
+    margin-bottom: 2em;
+}
+
 .personal-logo{
-    padding: 3em;
-    position: relative;
-    width:33%;
-    height:auto;
+    padding-left: 2em;
+    
+    width:auto;
+    height:80%;
+}
+
+.about{
+    font-size: 1.5em;
+}
+
+li{
+    list-style-position: inside;
 }
 
 .personal-logo img{
@@ -57,19 +75,22 @@
 .info-links{
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content:space-around;
     align-items: center;
-    border: black dotted 1px;
-    margin: auto 10em;
+    border: black dotted 2px;
+    background-color: aliceblue;
+    box-shadow: 5px 10px grey;
+    margin:auto;
     margin-bottom: 10px;
     height: fit-content;
+    width: 50%;
+    align-self: center;
 
 }
 
 .info-links a img{
     height: auto;
     width: 30%;
-    padding: 2em;
     border-radius: 50%;
 }
 
@@ -79,4 +100,13 @@
 
 .contact-container{
     background-color: #E4D42D;
+}
+
+footer{
+    background-color: black;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
 }
