@@ -13,12 +13,13 @@ body{
 .name{
     font-family: 'Climate Crisis', cursive;
     font-size: 5em;
-    margin: 2em 0;
+    margin: 2.5em 0;
 }
 
 .image-wrapper{
     height: 100vh;
     display: inline;
+    font-size: 0px;
 }
 
 .image-wrapper img{
@@ -29,7 +30,7 @@ body{
 .info-container{
     background-color: #D32D41;
     background-repeat: repeat;
-    padding: 3em;
+    margin-bottom: 3em;
 }
 
 .info-content{
@@ -39,7 +40,7 @@ body{
     justify-content: space-around;
     align-items: center;
     margin: auto;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
     width: 80%;
 }
 
@@ -81,17 +82,25 @@ li{
     background-color: aliceblue;
     box-shadow: 5px 10px grey;
     margin:auto;
-    margin-bottom: 10px;
     height: fit-content;
     width: 50%;
     align-self: center;
-
 }
 
 .info-links a img{
     height: auto;
     width: 30%;
     border-radius: 50%;
+}
+
+.section-break-img{
+    height: 100vh;
+    margin: auto;
+}
+
+.section-break-img img{
+    width: 100%;
+    height: auto;
 }
 
 .projects{
