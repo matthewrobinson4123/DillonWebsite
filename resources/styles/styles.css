@@ -93,14 +93,21 @@ li{
     border-radius: 50%;
 }
 
-.section-break-img{
+.section-break{
     height: 100vh;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: stretch;
 }
 
-.section-break-img img{
-    width: 100%;
-    height: auto;
+.section-break-image-wrapper{
+    height: 100vh;
+    background-image: url("../images/sound-board.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .projects{
