@@ -119,6 +119,32 @@ li{
     background-color: #0080A8;
 }
 
+.demo-container{
+    display: flex;
+    justify-content: center;
+}
+
+.text-wrapper{
+    background-color: azure;
+    width: 33%;
+    margin: 1.5em;
+    align-items: center;
+    position: relative;
+}
+
+.text-wrapper p{
+    top: 50%;
+    position: relative;
+}
+
+.right{
+    flex-direction: row;
+}
+
+.left{
+    flex-direction: row-reverse;
+}
+
 .contact-container{
     margin: auto;
     background-color: #E4D42D;
