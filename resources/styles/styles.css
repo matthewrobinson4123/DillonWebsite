@@ -115,10 +115,12 @@ li{
 }
 
 .projects{
+    padding: 2em;
     background-color: #0080A8;
 }
 
 .contact-container{
+    margin: auto;
     background-color: #E4D42D;
 }
 
