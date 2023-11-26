@@ -184,7 +184,7 @@ footer a{
     margin: 10vh auto 0 auto;
   }
   
-  .formcarry-form label {
+  .contact-form label {
     display: block;
     padding: 12px 0 2px 0;
     letter-spacing: -0.2px;
@@ -193,8 +193,8 @@ footer a{
     font-weight: 700;
   }
   
-  .formcarry-form input,
-  .formcarry-form textarea {
+  .contact-form input,
+  .contact-form textarea {
     font-size: 16px;
     display: block;
     width: 100%;
@@ -207,18 +207,18 @@ footer a{
     color: var(--color-dark-gray);
   }
   
-  .formcarry-form input:focus,
-  .formcarry-form textarea:focus {
+  .contact-form input:focus,
+  .contact-form textarea:focus {
     background-color: #fff;
     color: var(--color-dark-gray);
   }
   
-  .formcarry-form input:focus:required:invalid {
+  .contact-form input:focus:required:invalid {
     border-color: var(--color-pink);
     background-color: #fff;
   }
   
-  .formcarry-form button {
+  .contact-form button {
     display: block;
     margin-top: 12px;
     width: 100%;
@@ -233,11 +233,11 @@ footer a{
     transition: 300ms all;
   }
   
-  .formcarry-form button:hover {
+  .contact-form button:hover {
     background-color: var(--color-light-blue);
   }
   
-  .formcarry-alert {
+  .contact-alert {
     padding: 12px;
     border-radius: 10px;
     color: #fff;
@@ -247,14 +247,14 @@ footer a{
     display: none;
   }
   
-  .formcarry-alert.visible {
+  .contact-alert.visible {
     display: block;
   }
   
-  .formcarry-alert.success {
+  .contact-alert.success {
     background: #69cf9d;
   }
   
-  .formcarry-alert.error {
+  .contact-alert.error {
     background: #de524c;
   }
