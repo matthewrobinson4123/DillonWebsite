@@ -161,6 +161,10 @@ footer a{
     text-decoration: none;
 }
 
+.contact-container{
+  padding: 3em 0;
+}
+
 .contact-form-container * {
     box-sizing: border-box;
       font-family: "Inter", sans-serif;
