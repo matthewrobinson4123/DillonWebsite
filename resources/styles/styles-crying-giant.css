@@ -11,8 +11,16 @@ body{
   background-color: #dc9d6a;
 }
 
+nav a{
+  background-color: #000;
+}
+
+nav a i{
+  font-size: 4em;
+}
+
 .contact-container{
-  background-color: #8c8a9c;
+  background-color: #afaaa4;
   width: 50%;
   margin: auto;
   align-self: center;
