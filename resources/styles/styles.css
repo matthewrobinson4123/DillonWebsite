@@ -79,7 +79,7 @@ li{
     border: 2px solid white;
 }
 
-.info-links{
+.links{
     display: flex;
     flex-direction: row;
     justify-content:space-around;
@@ -93,7 +93,7 @@ li{
     align-self: center;
 }
 
-.info-links a img{
+.links a img{
     height: auto;
     width: 30%;
     border-radius: 50%;
