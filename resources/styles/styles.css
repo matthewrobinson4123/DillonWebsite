@@ -91,34 +91,34 @@ li{
 .links{
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-evenly;
     align-items: center;
+    align-content: center;
     border: black dotted 2px;
     background-color: aliceblue;
     box-shadow: 5px 10px grey;
-    margin:auto;
-    height: fit-content;
-    width: 50%;
-    align-self: center;
+    margin: auto;
+    height: 10em;
+    width: 60%;
+}
+
+.links a{
+  height: auto;
+  width: 6%;
 }
 
 .links a img{
-    height: auto;
-    width: 30%;
-    border-radius: 50%;
+  height: auto;
+  width: 100%;
 }
 
 .links a i,
 .resume i{
   text-decoration: none;
   color: #000;
-  width: auto;
   font-size: 4.5em;
 }
 
-.socials a{
-  margin-top: 2em;
-}
 
 
 /* SOUND BOARD SECTION BREAK */
