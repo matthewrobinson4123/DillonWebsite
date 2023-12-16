@@ -55,7 +55,7 @@ body{
 .about-accomplishments{
     width: 75%;
     height: 50vh;
-    background-color:aliceblue;
+    background-color:#E4D42D;
     border-radius: 10%;
     padding: 25px;
 }
@@ -95,7 +95,7 @@ li{
     align-items: center;
     align-content: center;
     border: black dotted 2px;
-    background-color: aliceblue;
+    background-color: #0080A8;
     box-shadow: 5px 10px grey;
     margin: auto;
     height: 10em;
@@ -175,6 +175,13 @@ li{
     flex-direction: row-reverse;
 }
 
+.right .text-wrapper{
+  background-color: #E4D42D;
+}
+
+.left .text-wrapper{
+  background-color: #D32D41;
+}
 
 /* SMALL COUNCIL SECTION */
 
@@ -232,7 +239,7 @@ li{
   padding: 2em 0;
   margin: auto;
   background-color: #E4D42D;
-  height: 75vh;
+  height: 100vh;
 }
 
 .contact-form-container * {
