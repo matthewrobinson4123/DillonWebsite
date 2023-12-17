@@ -62,11 +62,15 @@ if (isset($_POST['email'])) {
     $headers = 'From: ' . $email . "\r\n" .
         'Reply-To: ' . $email . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
-    @mail($email_to, $email_subject, $email_message, $headers);
+
+    if (@mail($email_to, $email_subject, $email_message, $headers)){
+        echo "The email was sent.";
+    }else{
+        echo "The email was not sent.";
+    }
 ?>
 
 
-    Thanks for reaching out! I will get back to you as soon as possible.
 
 <?php
 }
