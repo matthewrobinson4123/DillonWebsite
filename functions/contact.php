@@ -1,7 +1,7 @@
 <?php
 if (isset($_POST['email'])) {
 
-    $email_to = $_GET['emailTo'];
+    $email_to = "bearwarrior25@gmail.com";
     $email_subject = "Email From Portfolio Website";
 
     function problem($error)
