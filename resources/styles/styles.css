@@ -64,15 +64,22 @@ body{
     margin-bottom: 2em;
 }
 
+.about h2{
+  font-size: 2em;
+}
+
+.about p{
+  font-size: 1.5em;
+}
+
 .personal-logo{
     padding-left: 2em;
-    
     width:auto;
     height:80%;
 }
 
-.about{
-    font-size: 1.5em;
+.accomplishments{
+    font-size: 1em;
 }
 
 li{
@@ -99,7 +106,7 @@ li{
     box-shadow: 5px 10px grey;
     margin: auto;
     height: 10em;
-    width: 60%;
+    width: 66%;
 }
 
 .links a{
@@ -149,6 +156,12 @@ li{
     background-color: #0080A8;
 }
 
+.vimeo-portfolio iframe{
+    aspect-ratio: 16/9;
+    width: 66%;
+    background-color: #000;
+}
+
 .demo-container{
     display: flex;
     justify-content: center;
@@ -183,6 +196,12 @@ li{
   background-color: #D32D41;
 }
 
+video{
+  width: 30%;
+  height: 33vh;
+  background-color: #000;
+}
+
 /* SMALL COUNCIL SECTION */
 
 .small-council{
@@ -202,7 +221,9 @@ li{
   align-items: center;
   align-content: center;
   justify-content: space-around;
+  margin: auto;
   height: 75%;
+  width: 66%;
 }
 
 .sc-about{
