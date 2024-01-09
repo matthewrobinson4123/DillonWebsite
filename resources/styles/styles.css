@@ -165,6 +165,8 @@ li{
 .demo-container{
     display: flex;
     justify-content: center;
+    width: 100%;
+    margin: auto;
 }
 
 .text-wrapper{
@@ -196,7 +198,7 @@ li{
   background-color: #D32D41;
 }
 
-video{
+.demo-container video{
   max-width: 30%;
   aspect-ratio: 16/9;
   background-color: #000;
@@ -249,7 +251,7 @@ video{
 }
 
 .about-container img{
-  height: 20vw;
+  max-width: 20vw;
   border-radius: 100%;
 }
 
@@ -257,6 +259,8 @@ video{
   aspect-ratio: 16/19;
   width: 25%;
 }
+
+
 
 /* CONTACT FORM */
 
