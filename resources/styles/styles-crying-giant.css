@@ -11,9 +11,18 @@ body{
   background-color: #dc9d6a;
 }
 section{
-  background-color: #afaaa4;
+  background-color: #beb094;
   width: 50%;
   margin: auto;
+}
+
+.about{
+  padding: 5em;
+  background-color: #afaaa4;
+  margin: auto 5em;
+  border-radius: 25%;
+  font-family: 'Bubblegum Sans';
+  font-size: 22px;
 }
 
 /* DEMOS */
